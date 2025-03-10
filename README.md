@@ -5,7 +5,11 @@ License CC BY-SA 3.0
 OpenEVSE Hardware
 
 
-Current Version OpenEVSE_PLUS_v5.5.
+Current Version OpenEVSE_PLUS_v6.5.1.
+
+<img src="https://github.com/OpenEVSE/OpenEVSE_PLUS/blob/master/OpenEVSE_PLUS_v6.5.1/OpenEVSE_PLUS_V6.5.1.png" alt="OpenEVSE Electric Vehicle controller v5.5 SAE J1772 IEC 61851">
+
+OpenEVSE_PLUS_V6.5 - New more powerfull 10 watt Power supply (v5.5 and below 4 watt) with support for 277V AC and higher 85C operational temperature. Reworked AC detect circuits to support new UL requirement for "Continuous" Ground Monitoring vs "While Charging". Added on-board Surge supression MOVs. Added connector with Pilot, Proximity Pilot, Ground and 5v.
 
 <img src="https://github.com/OpenEVSE/OpenEVSE_PLUS/blob/master/OpenEVSE_PLUS_v5.5/OpenEVSE_v5.5.jpg" alt="OpenEVSE Electric Vehicle controller v5.5 SAE J1772 IEC 61851">
 
