@@ -9,11 +9,11 @@ Current Version OpenEVSE_PLUS_v6.5.1.
 
 <img src="https://github.com/OpenEVSE/OpenEVSE_PLUS/blob/master/OpenEVSE_PLUS_v6.5.1/OpenEVSE_PLUS_V6.5.1.png" alt="OpenEVSE Electric Vehicle controller v5.5 SAE J1772 IEC 61851">
 
-OpenEVSE_PLUS_V6.5 - New more powerfull 10 watt Power supply (v5.5 and below 4 watt) with support for 277V AC and higher 85C operational temperature. Reworked AC detect circuits to support new UL requirement for "Continuous" Ground Monitoring vs "While Charging". Added on-board Surge supression MOVs. Added connector with Pilot, Proximity Pilot, Ground and 5v.
+OpenEVSE_PLUS_V6.5 - New more powerfull 10 watt Power supply (v5.5 and below 4 watt) with support for 277V AC and higher 85C operational temperature. Reworked AC detect circuits to support new UL requirement for "Continuous" Ground Monitoring vs "While Charging". Pulled ADC6 HIGH to auto detect CGMI requirement. Added on-board Surge supression MOVs. Added connector with Pilot, Proximity Pilot, Ground and 5v.
 
 <img src="https://github.com/OpenEVSE/OpenEVSE_PLUS/blob/master/OpenEVSE_PLUS_v5.5/OpenEVSE_v5.5.jpg" alt="OpenEVSE Electric Vehicle controller v5.5 SAE J1772 IEC 61851">
 
-OpenEVSE_PLUS_V5.5 - Moved GFCI Test pin to enable move of DC Relay outputs to PWM capable pins supporting full power closing reduced power holding in OpenEVSE 7.1.2+ firmware. Added GPIO pin pulled HIGH to auto detect board version in software to automatically set new/old pin values without requiring different firmware. Replaced 0.1" generic non-polarized connectors with JST PH for Serial (WiFi) and i2c (Display). Combined power and data connections for WiFi to reduce eliminate a screw terminal connector and simplify wiring harness. Replaced DC/DC converter with a TC1044S invert chip to generate -12v from +12v. 
+OpenEVSE_PLUS_V5.5 - Moved GFCI Test pin to enable move of DC Relay outputs to PWM capable pins supporting full power closing reduced power holding in OpenEVSE 7.1.2+ firmware. Pulled PD7 HIGH to auto detect board version in software to automatically set new/old pin values without requiring different firmware. Replaced 0.1" generic non-polarized connectors with JST PH for Serial (WiFi) and i2c (Display). Combined power and data connections for WiFi to reduce eliminate a screw terminal connector and simplify wiring harness. Replaced DC/DC converter with a TC1044S invert chip to generate -12v from +12v. 
  
 
 <img src="https://github.com/OpenEVSE/OpenEVSE_PLUS/blob/master/OpenEVSE_PLUS_v5/OpenEVSE_v5.jpg" alt="OpenEVSE Electric Vehicle controller v5 SAE J1772 IEC 61851">
